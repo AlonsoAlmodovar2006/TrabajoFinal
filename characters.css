@@ -42,7 +42,7 @@ body {
 }
 
 .card-one {
-    background-image: url(intro.jpg); /* Establece la imagen de fondo de la tarjeta */
+    background-image: url(./imágenes/intro.jpg); /* Establece la imagen de fondo de la tarjeta */
 }
 
 .card-one:hover {
