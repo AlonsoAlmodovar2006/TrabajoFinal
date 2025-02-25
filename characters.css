@@ -5,34 +5,39 @@ body {
     display: grid; /* Utiliza el modelo de caja de cuadrícula */
     place-items: center; /* Centra los elementos hijos en el centro del contenedor */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Define la fuente del texto */
-    background-color: #f0f0f0; /* Establece el color de fondo */
+    background-color: #FFFFF0; /* Establece el color de fondo */
     margin: 0; /* Elimina el margen por defecto del body */
+    font-size: 1rem; /* Disminuye el tamaño de la fuente base */
 }
 
 /* Contenedor principal */
 .container {
-    width: 60rem; /* Establece el ancho del contenedor */
+    width: 68rem; /* Disminuye el ancho del contenedor */
     max-width: 100%; /* Asegura que el contenedor no exceda el 100% del ancho de la ventana */
     height: auto; /* La altura se ajusta automáticamente al contenido */
-    background-color: #ffffff; /* Establece el color de fondo del contenedor */
+    background-color: #fed90f; /* Establece el color de fondo del contenedor */
     border-radius: 1rem; /* Redondea las esquinas del contenedor */
-    padding: 2rem; /* Añade espacio interno alrededor del contenido */
-    margin: 2rem auto; /* Centra el contenedor y añade espacio superior */
+    padding: 1.5rem; /* Disminuye el espacio interno alrededor del contenido */
+    margin: 2rem 0rem; /* Centra el contenedor y añade espacio superior */
+}
+
+h1{
+    color: #0165fc;
 }
 
 /* Estilos de tarjetas */
 .cards {
     display: grid; /* Utiliza el modelo de caja de cuadrícula */
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); /* Define el número de columnas y su tamaño mínimo */
-    gap: 2rem; /* Añade espacio entre las tarjetas */
-    margin-top: 2rem; /* Añade espacio superior */
-    padding: 1rem; /* Añade espacio interno alrededor del contenido */
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); /* Define el número de columnas y su tamaño mínimo */
+    gap: 2rem; /* Disminuye el espacio entre las tarjetas */
+    margin-top: 2rem; /* Disminuye el espacio superior */
+    padding: 1rem; /* Disminuye el espacio interno alrededor del contenido */
     width: 100%; /* Establece el ancho al 100% del contenedor padre */
     box-sizing: border-box; /* Incluye el padding y el borde en el ancho y alto total del elemento */
 }
 
 .card-one {
-    height: 40rem; /* Establece la altura de la tarjeta */
+    height: 35rem; /* Disminuye la altura de la tarjeta */
     background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
     background-size: cover; /* Ajusta la imagen de fondo para cubrir toda la tarjeta */
     background-position: center; /* Centra la imagen de fondo */
@@ -42,22 +47,18 @@ body {
 }
 
 .card-one {
-    background-image: url(./imágenes/intro.jpg); /* Establece la imagen de fondo de la tarjeta */
-}
-
-.card-one:hover {
-    transform: scale(1.05); /* Escala la tarjeta al pasar el ratón por encima */
+    background-image: url(./imágenes/personajes.webp); /* Establece la imagen de fondo de la tarjeta */
 }
 
 /* Estilos para inputs y botones */
 input, button {
-    margin: 0.625rem; /* Añade margen alrededor de los elementos */
-    padding: 0.625rem; /* Añade espacio interno alrededor del contenido */
-    font-size: 1rem; /* Establece el tamaño de la fuente */
+    margin: 0.5rem; /* Disminuye el margen alrededor de los elementos */
+    padding: 0.5rem; /* Disminuye el espacio interno alrededor del contenido */
+    font-size: 1rem; /* Disminuye el tamaño de la fuente */
     text-align: center; /* Centra el texto horizontalmente */
     border-radius: 0.5rem; /* Redondea las esquinas */
     border: 1px solid #ccc; /* Añade un borde gris claro */
-    width: 80%; /* Ajusta el ancho para inputs */
+    width: 75%; /* Ajusta el ancho para inputs */
 }
 
 button {
@@ -73,7 +74,7 @@ button:hover {
 
 /* Estilos adicionales */
 .per-img {
-    height: 18.75rem; /* Establece la altura de la imagen */
+    height: 20rem; /* Disminuye la altura de la imagen */
     transition: 0.5s; /* Añade una transición suave */
 }
 
@@ -83,15 +84,15 @@ button:hover {
 
 .per-name, .per-err {
     color: black; /* Establece el color del texto */
-    font-size: 1.2rem; /* Establece el tamaño de la fuente */
-    margin-top: 0.5rem; /* Añade espacio superior */
+    font-size: 1.25rem; /* Disminuye el tamaño de la fuente */
+    margin-top: 0.5rem; /* Disminuye el espacio superior */
 }
 
 a {
     display: inline-block; /* Define el enlace como un bloque en línea */
-    margin-top: 1rem; /* Añade espacio superior */
-    padding: 0.625rem 1.25rem; /* Añade espacio interno alrededor del contenido */
-    font-size: 1rem; /* Establece el tamaño de la fuente */
+    margin-top: 1rem; /* Disminuye el espacio superior */
+    padding: 0.5rem 1rem; /* Disminuye el espacio interno alrededor del contenido */
+    font-size: 1rem; /* Disminuye el tamaño de la fuente */
     text-align: center; /* Centra el texto horizontalmente */
     text-decoration: none; /* Elimina el subrayado del enlace */
     color: #ffffff; /* Establece el color del texto */

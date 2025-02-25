@@ -13,65 +13,67 @@ body {
     flex-direction: column; /* Dirección de los elementos en columna */
     align-items: center; /* Centra los elementos horizontalmente */
     overflow-x: hidden; /*Evita que la página se desborde lateralmente*/
+    font-size: 1.25rem; /* Aumenta el tamaño de la fuente */
 }
 
 header {
     background: #0165fc; /* Color de fondo del header */
     width: 100%; /* Ancho completo */
-    padding: 1.25rem; /*4 lados*/
+    padding: 2rem; /* Aumenta el padding */
     text-align: center; /* Centra el texto */
-    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.2); /* Sombra del header */
+    box-shadow: 0 0.5rem 0.75rem rgba(0, 0, 0, 0.2); /* Aumenta la sombra del header */
 }
 
 header h1 {
     color: #ffffff; /* Color del texto */
-    font-size: 2.5rem; /* Tamaño de la fuente */
-    text-shadow: 0.125rem 0.125rem 0.3125rem rgba(0, 0, 0, 0.2); /* Sombra del texto */
+    font-size: 3rem; /* Aumenta el tamaño de la fuente */
+    text-shadow: 0.25rem 0.25rem 0.625rem rgba(0, 0, 0, 0.2); /* Aumenta la sombra del texto */
 }
 
 main {
-    max-width: 56.25rem; /* Ancho máximo del contenido */
-    padding: 1.25rem; /* Padding alrededor del contenido */
+    max-width: 80rem; /* Aumenta el ancho máximo del contenido */
+    padding: 2rem; /* Aumenta el padding */
     text-align: center; /* Centra el texto */
 }
 
 .intro {
     background: #fed90f; /* Color de fondo */
-    padding: 1.25rem; /* Padding alrededor del contenido */
-    border-radius: 0.75rem; /* Bordes redondeados */
-    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
-    margin: 1.25rem 0; /*Vertical, Horizontal*/
+    padding: 2rem; /* Aumenta el padding */
+    border-radius: 1rem; /* Aumenta los bordes redondeados */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* Aumenta la sombra del contenedor */
+    margin: 2rem 0; /* Aumenta el margen vertical */
 }
 
 .intro img {
     width: 100%; /* Ancho completo */
-    max-width: 31.25rem; /* Ancho máximo */
-    border-radius: 0.75rem; /*Redondea esquinas*/
-    margin-bottom: 1rem; /* Margen inferior */
+    max-width: auto; /* Aumenta el ancho máximo */
+    border-radius: 1rem; /* Aumenta los bordes redondeados */
+    margin-bottom: 1.3rem; /* Aumenta el margen inferior */
 }
 
 .api {
     background: #fed90f; /* Color de fondo */
-    padding: 1.25rem; /* Padding alrededor del contenido */
-    border-radius: 0.75rem; /* Bordes redondeados */
-    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
-    margin-top: 1.25rem; /* Margen superior */
+    padding: 2rem; /* Aumenta el padding */
+    border-radius: 1rem; /* Aumenta los bordes redondeados */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* Aumenta la sombra del contenedor */
+    margin-top: 2rem; /* Aumenta el margen superior */
     color: #333; /* Color del texto */
 }
 
 .api img {
-    max-width: 31.25rem; /* Ancho máximo */
-    border-radius: 0.625rem; /* Bordes redondeados */
+    max-width: 50rem; /* Aumenta el ancho máximo */
+    border-radius: 0.75rem; /* Aumenta los bordes redondeados */
 }
 
 .api a {
     display: inline-block; /* Bloque en línea */
     background: #0165fc; /* Color de fondo */
     color: white; /* Color del texto */
-    padding: 0.625rem 1.25rem; /* Padding alrededor del contenido */
-    border-radius: 0.5rem; /* Bordes redondeados */
+    padding: 1rem 2rem; /* Aumenta el padding */
+    border-radius: 0.75rem; /* Aumenta los bordes redondeados */
     text-decoration: none; /* Sin subrayado */
     font-weight: bold; /* Texto en negrita */
+    font-size: 1.25rem; /* Aumenta el tamaño de la fuente */
 }
 
 .api a:hover {
@@ -85,18 +87,18 @@ main {
     overflow-x: auto; /* Desbordamiento horizontal */
     scroll-snap-type: x mandatory; /* Desplazamiento suave */
     white-space: nowrap; /* Evita el salto de línea */
-    gap: 0.625rem; /* Espacio entre elementos */
-    padding: 0.625rem; /* Padding alrededor del contenido */
+    gap: 1rem; /* Aumenta el espacio entre elementos */
+    padding: 1rem; /* Aumenta el padding */
 }
 
 /* Imágenes del Carrusel */
 .slider-container img {
     flex: 0 0 auto; /* No permite que el elemento crezca o se encoja */
-    width: 18.75rem; /* Ancho fijo */
-    height: 18.75rem; /* Altura fija */
+    width: 30rem; /* Aumenta el ancho fijo */
+    height: 30rem; /* Aumenta la altura fija */
     object-fit: cover; /* Ajusta la imagen */
     scroll-snap-align: center; /* Alineación central en el desplazamiento */
-    border-radius: 0.625rem; /* Bordes redondeados */
+    border-radius: 0.75rem; /* Aumenta los bordes redondeados */
 }
 
 /* Sección enlaces */
@@ -104,30 +106,30 @@ main {
     display: flex; /* Utiliza flexbox para el layout */
     flex-direction: column; /* Dirección de los elementos en columna */
     align-items: center; /* Centra los elementos horizontalmente */
-    padding: 1.25rem; /* Padding alrededor del contenido */
-    margin-top: 1.25rem; /* Margen superior */
+    padding: 2rem; /* Aumenta el padding */
+    margin-top: 2rem; /* Aumenta el margen superior */
 }
 
 h2 {
     color: #0165fc; /* Color del texto */
-    font-size: 1.8rem; /* Tamaño de la fuente */
-    margin-bottom: 0.625rem; /* Margen inferior */
+    font-size: 2.5rem; /* Aumenta el tamaño de la fuente */
+    margin-bottom: 1rem; /* Aumenta el margen inferior */
 }
 
 ul {
     display: grid; /* Utiliza grid para el layout */
-    grid-template-columns: repeat(auto-fit, minmax(15.625rem, 1fr)); /* Columnas adaptables */
-    gap: 0.9375rem; /* Espacio entre elementos */
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); /* Aumenta el tamaño mínimo de las columnas */
+    gap: 1.5rem; /* Aumenta el espacio entre elementos */
     list-style: none; /* Sin estilo de lista */
     width: 100%; /* Ancho completo */
-    max-width: 37.5rem; /* Ancho máximo */
+    max-width: 60rem; /* Aumenta el ancho máximo */
 }
 
 li {
     background: white; /* Color de fondo */
-    padding: 0.9375rem; /* Padding alrededor del contenido */
-    border-radius: 0.625rem; /* Bordes redondeados */
-    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
+    padding: 1.5rem; /* Aumenta el padding */
+    border-radius: 0.75rem; /* Aumenta los bordes redondeados */
+    box-shadow: 0 0.5rem 0.75rem rgba(0, 0, 0, 0.1); /* Aumenta la sombra del contenedor */
     text-align: center; /* Centra el texto */
 }
 
@@ -136,9 +138,10 @@ li a {
     text-decoration: none; /* Sin subrayado */
     background: #0165fc; /* Color de fondo */
     color: white; /* Color del texto */
-    padding: 0.625rem 0.9375rem; /* Padding alrededor del contenido */
-    border-radius: 0.3125rem; /* Bordes redondeados */
+    padding: 1rem 1.5rem; /* Aumenta el padding */
+    border-radius: 0.5rem; /* Aumenta los bordes redondeados */
     font-weight: bold; /* Texto en negrita */
+    font-size: 1.25rem; /* Aumenta el tamaño de la fuente */
 }
 
 a:hover {
@@ -146,8 +149,8 @@ a:hover {
 }
 
 footer {
-    margin-top: 1.25rem; /* Margen superior */
-    padding: 0.625rem; /* Padding alrededor del contenido */
+    margin-top: 2rem; /* Aumenta el margen superior */
+    padding: 1rem; /* Aumenta el padding */
     text-align: center; /* Centra el texto */
     background: #333; /* Color de fondo */
     color: white; /* Color del texto */
