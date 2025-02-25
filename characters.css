@@ -1,76 +1,106 @@
+/* Estilos generales */
 body {
-    height: 100vh;
-    text-align: center;
-    display: grid;
-    place-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh; /* Establece la altura del body al 100% de la altura de la ventana */
+    text-align: center; /* Centra el texto horizontalmente */
+    display: grid; /* Utiliza el modelo de caja de cuadrícula */
+    place-items: center; /* Centra los elementos hijos en el centro del contenedor */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Define la fuente del texto */
+    background-color: #f0f0f0; /* Establece el color de fondo */
+    margin: 0; /* Elimina el margen por defecto del body */
 }
 
+/* Contenedor principal */
 .container {
-    width: 75rem;
-    height: 56.25rem;
-    background-image: url();
-    background-size: contain;
+    width: 60rem; /* Establece el ancho del contenedor */
+    max-width: 100%; /* Asegura que el contenedor no exceda el 100% del ancho de la ventana */
+    height: auto; /* La altura se ajusta automáticamente al contenido */
+    background-color: #ffffff; /* Establece el color de fondo del contenedor */
+    border-radius: 1rem; /* Redondea las esquinas del contenedor */
+    padding: 2rem; /* Añade espacio interno alrededor del contenido */
+    margin: 2rem auto; /* Centra el contenedor y añade espacio superior */
 }
 
+/* Estilos de tarjetas */
 .cards {
-    height: 81%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: grid; /* Utiliza el modelo de caja de cuadrícula */
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); /* Define el número de columnas y su tamaño mínimo */
+    gap: 2rem; /* Añade espacio entre las tarjetas */
+    margin-top: 2rem; /* Añade espacio superior */
+    padding: 1rem; /* Añade espacio interno alrededor del contenido */
+    width: 100%; /* Establece el ancho al 100% del contenedor padre */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho y alto total del elemento */
 }
 
 .card-one {
-    height: 43.75rem;
-    width: 20rem;
-    background-image: url(intro.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    margin-left: 20%;
+    height: 40rem; /* Establece la altura de la tarjeta */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir toda la tarjeta */
+    background-position: center; /* Centra la imagen de fondo */
+    border-radius: 1rem; /* Redondea las esquinas de la tarjeta */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* Añade una sombra a la tarjeta */
+    transition: transform 0.3s ease; /* Añade una transición suave al transform */
 }
 
-.card-two {
-    margin-top: 5%;
+.card-one {
+    background-image: url(intro.jpg); /* Establece la imagen de fondo de la tarjeta */
 }
 
-.card-three {
-    margin-top: 5%;
-    margin-right: 20%;
-    height: 43.75rem;
-    width: 20rem; 
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-image: url(intro.jpg);
+.card-one:hover {
+    transform: scale(1.05); /* Escala la tarjeta al pasar el ratón por encima */
 }
 
+/* Estilos para inputs y botones */
 input, button {
-    margin: 0.625rem;
-    padding: 0.625rem; 
-    font-size: 1rem; 
-    text-align: center;
+    margin: 0.625rem; /* Añade margen alrededor de los elementos */
+    padding: 0.625rem; /* Añade espacio interno alrededor del contenido */
+    font-size: 1rem; /* Establece el tamaño de la fuente */
+    text-align: center; /* Centra el texto horizontalmente */
+    border-radius: 0.5rem; /* Redondea las esquinas */
+    border: 1px solid #ccc; /* Añade un borde gris claro */
+    width: 80%; /* Ajusta el ancho para inputs */
 }
 
-.personajeInput {
-    margin-top: 1.25rem; 
+button {
+    background-color: #007bff; /* Establece el color de fondo del botón */
+    color: #ffffff; /* Establece el color del texto del botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+    transition: background-color 0.3s ease; /* Añade una transición suave al color de fondo */
 }
 
+button:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón por encima */
+}
+
+/* Estilos adicionales */
 .per-img {
-    height: 18.75rem; 
-    transition: 0.5s;
+    height: 18.75rem; /* Establece la altura de la imagen */
+    transition: 0.5s; /* Añade una transición suave */
 }
 
 .per-img:hover {
-    transform: scale(1.2);
+    transform: scale(1.2); /* Escala la imagen al pasar el ratón por encima */
 }
 
-.per-name {
-    color: black;
-    font-size: 1.7rem;
+.per-name, .per-err {
+    color: black; /* Establece el color del texto */
+    font-size: 1.2rem; /* Establece el tamaño de la fuente */
+    margin-top: 0.5rem; /* Añade espacio superior */
 }
 
-.per-err {
-    color: black;
-    font-size: 1.2rem;
+a {
+    display: inline-block; /* Define el enlace como un bloque en línea */
+    margin-top: 1rem; /* Añade espacio superior */
+    padding: 0.625rem 1.25rem; /* Añade espacio interno alrededor del contenido */
+    font-size: 1rem; /* Establece el tamaño de la fuente */
+    text-align: center; /* Centra el texto horizontalmente */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: #ffffff; /* Establece el color del texto */
+    background-color: #007bff; /* Establece el color de fondo */
+    border-radius: 0.5rem; /* Redondea las esquinas */
+    transition: transform 0.3s ease; /* Añade una transición suave al transform */
+}
+
+a:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón por encima */
+    transform: scale(1.05); /* Escala el enlace al pasar el ratón por encima */
 }

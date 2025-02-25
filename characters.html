@@ -1,26 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Buscador de Personajes de Los Simpsons</title>
     <link rel="stylesheet" href="characters.css">
 </head>
+
 <body>
     <div class="container">
-        <h1>Buscador de Personajes de Los Simpsons</h1>
-        <div class="cards">
-            <div class="card-one"></div>
-            <div class="card-two">
-                <input type="text" class="personajeInput" id="personajeInput" placeholder="Nombre del personaje"> <br>
-                <button onclick="buscarPersonaje()">Buscar personaje</button>
-                <div id="personajeInfo"></div>
-            </div>
-            <div class="card-three"></div>
-        </div>
+        <header>
+            <a href="index.html">Página anterior</a>
+            <h1>Buscador de Personajes de Los Simpsons</h1>
+        </header>
+        <main>
+            <section class="cards">
+                <div class="card-one"></div>
+                <div class="card-two">
+                    <input type="text" class="personajeInput" id="personajeInput" placeholder="Nombre del personaje">
+                    <br>
+                    <button onclick="buscarPersonaje()">Buscar personaje</button>
+                    <div id="personajeInfo"></div>
+                </div>
+            </section>
+        </main>
     </div>
-    <a href="index.html">Página anterior</a>
     <script src="characters.js"></script>
 </body>
-</html>
 
+</html>
