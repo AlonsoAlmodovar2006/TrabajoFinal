@@ -1,158 +1,167 @@
-/*Reset básico*/
+/* Reset básico */
 * {
-    box-sizing: border-box; /* Incluye padding y border en las dimensiones del elemento */
-    margin: 0; /*Eliminan los márgenes y rellenos predeterminados de los navegadores,*/
+    box-sizing: border-box;
+    margin: 0;
     padding: 0;
 }
 
+main {
+    max-width: 80rem;
+    padding: 2rem;
+    text-align: center;
+}
+
 body {
-    font-family: 'Poppins', sans-serif; /* Establece la fuente de la página */
-    background-color: #FFFFF0; /* Color de fondo */
-    color: #333; /* Color del texto */
-    display: flex; /* Utiliza flexbox para el layout */
-    flex-direction: column; /* Dirección de los elementos en columna */
-    align-items: center; /* Centra los elementos horizontalmente */
-    overflow-x: hidden; /*Evita que la página se desborde lateralmente*/
-    font-size: 1.25rem; /* Aumenta el tamaño de la fuente */
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFF0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    font-size: 1.25rem;
 }
 
 header {
-    background: #0165fc; /* Color de fondo del header */
-    width: 100%; /* Ancho completo */
-    padding: 2rem; /* Aumenta el padding */
-    text-align: center; /* Centra el texto */
-    box-shadow: 0 0.5rem 0.75rem rgba(0, 0, 0, 0.2); /* Aumenta la sombra del header */
+    background: #0165fc;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 0.5rem 0.75rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header h1 {
-    color: #ffffff; /* Color del texto */
-    font-size: 3rem; /* Aumenta el tamaño de la fuente */
-    text-shadow: 0.25rem 0.25rem 0.625rem rgba(0, 0, 0, 0.2); /* Aumenta la sombra del texto */
+    color: white;
+    font-size: 3rem;
+    text-shadow: 0.25rem 0.25rem 0.625rem rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
 }
 
-main {
-    max-width: 80rem; /* Aumenta el ancho máximo del contenido */
-    padding: 2rem; /* Aumenta el padding */
-    text-align: center; /* Centra el texto */
+header nav {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.paginas {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 50rem;
+}
+
+.paginas h2 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.paginas ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+.paginas li {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.paginas a {
+    display: block;
+    text-decoration: none;
+    background: #fed90f;
+    color: #0165fc;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.paginas a:hover {
+    background: #fbc02d;
 }
 
 .intro {
-    background: #fed90f; /* Color de fondo */
-    padding: 2rem; /* Aumenta el padding */
-    border-radius: 1rem; /* Aumenta los bordes redondeados */
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* Aumenta la sombra del contenedor */
-    margin: 2rem 0; /* Aumenta el margen vertical */
+    background: #fed90f;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    margin: 2rem 0;
 }
 
 .intro img {
-    width: 100%; /* Ancho completo */
-    max-width: auto; /* Aumenta el ancho máximo */
-    border-radius: 1rem; /* Aumenta los bordes redondeados */
-    margin-bottom: 1.3rem; /* Aumenta el margen inferior */
+    width: 100%;
+    max-width: auto;
+    border-radius: 1rem;
+    margin-bottom: 1.3rem;
 }
 
-.api {
-    background: #fed90f; /* Color de fondo */
-    padding: 2rem; /* Aumenta el padding */
-    border-radius: 1rem; /* Aumenta los bordes redondeados */
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* Aumenta la sombra del contenedor */
-    margin-top: 2rem; /* Aumenta el margen superior */
-    color: #333; /* Color del texto */
-}
-
-.api img {
-    max-width: 50rem; /* Aumenta el ancho máximo */
-    border-radius: 0.75rem; /* Aumenta los bordes redondeados */
-}
-
-.api a {
-    display: inline-block; /* Bloque en línea */
-    background: #0165fc; /* Color de fondo */
-    color: white; /* Color del texto */
-    padding: 1rem 2rem; /* Aumenta el padding */
-    border-radius: 0.75rem; /* Aumenta los bordes redondeados */
-    text-decoration: none; /* Sin subrayado */
-    font-weight: bold; /* Texto en negrita */
-    font-size: 1.25rem; /* Aumenta el tamaño de la fuente */
-}
-
-.api a:hover {
-    background: #0149b3; /* Color de fondo al pasar el ratón */
-}
-
-/* Contenedor del Carrusel */
-.slider-container {
-    display: flex; /* Utiliza flexbox para el layout */
-    width: 100%; /* Ancho completo */
-    overflow-x: auto; /* Desbordamiento horizontal */
-    scroll-snap-type: x mandatory; /* Desplazamiento suave */
-    white-space: nowrap; /* Evita el salto de línea */
-    gap: 1rem; /* Aumenta el espacio entre elementos */
-    padding: 1rem; /* Aumenta el padding */
-}
-
-/* Imágenes del Carrusel */
-.slider-container img {
-    flex: 0 0 auto; /* No permite que el elemento crezca o se encoja */
-    width: 30rem; /* Aumenta el ancho fijo */
-    height: 30rem; /* Aumenta la altura fija */
-    object-fit: cover; /* Ajusta la imagen */
-    scroll-snap-align: center; /* Alineación central en el desplazamiento */
-    border-radius: 0.75rem; /* Aumenta los bordes redondeados */
-}
-
-/* Sección enlaces */
 .links {
-    display: flex; /* Utiliza flexbox para el layout */
-    flex-direction: column; /* Dirección de los elementos en columna */
-    align-items: center; /* Centra los elementos horizontalmente */
-    padding: 2rem; /* Aumenta el padding */
-    margin-top: 2rem; /* Aumenta el margen superior */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    margin-top: 2rem;
 }
 
 h2 {
-    color: #0165fc; /* Color del texto */
-    font-size: 2.5rem; /* Aumenta el tamaño de la fuente */
-    margin-bottom: 1rem; /* Aumenta el margen inferior */
+    color: #0165fc;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
-ul {
-    display: grid; /* Utiliza grid para el layout */
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); /* Aumenta el tamaño mínimo de las columnas */
-    gap: 1.5rem; /* Aumenta el espacio entre elementos */
-    list-style: none; /* Sin estilo de lista */
-    width: 100%; /* Ancho completo */
-    max-width: 60rem; /* Aumenta el ancho máximo */
+.links ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+    list-style: none;
+    width: 100%;
+    max-width: 60rem;
 }
 
-li {
-    background: white; /* Color de fondo */
-    padding: 1.5rem; /* Aumenta el padding */
-    border-radius: 0.75rem; /* Aumenta los bordes redondeados */
-    box-shadow: 0 0.5rem 0.75rem rgba(0, 0, 0, 0.1); /* Aumenta la sombra del contenedor */
-    text-align: center; /* Centra el texto */
+.links li {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.5rem 0.75rem rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-li a {
-    display: block; /* Bloque */
-    text-decoration: none; /* Sin subrayado */
-    background: #0165fc; /* Color de fondo */
-    color: white; /* Color del texto */
-    padding: 1rem 1.5rem; /* Aumenta el padding */
-    border-radius: 0.5rem; /* Aumenta los bordes redondeados */
-    font-weight: bold; /* Texto en negrita */
-    font-size: 1.25rem; /* Aumenta el tamaño de la fuente */
+.links li a {
+    display: block;
+    text-decoration: none;
+    background: #0165fc;
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-size: 1.25rem;
 }
 
-a:hover {
-    background: #0149b3; /* Color de fondo al pasar el ratón */
+.links li a:hover {
+    background: #0149b3;
 }
 
 footer {
-    margin-top: 2rem; /* Aumenta el margen superior */
-    padding: 1rem; /* Aumenta el padding */
-    text-align: center; /* Centra el texto */
-    background: #333; /* Color de fondo */
-    color: white; /* Color del texto */
-    width: 100%; /* Ancho completo */
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+    background: #333;
+    color: white;
+    width: 100%;
 }
