@@ -34,25 +34,25 @@ header {
 
 header h1 {
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
     text-shadow: 0.25rem 0.25rem 0.625rem rgba(0, 0, 0, 0.2);
     margin-bottom: 1rem;
 }
 
-header nav {
+header {
     display: flex;
     gap: 1.5rem;
     margin-bottom: 1rem;
 }
 
-header nav a {
+header a {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
     padding: 0.5rem 1rem;
 }
 
-header nav a:hover {
+header a:hover {
     text-decoration: underline;
 }
 

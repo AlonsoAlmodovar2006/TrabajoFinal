@@ -34,25 +34,25 @@ header {
 
 header h1 {
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
     text-shadow: 0.25rem 0.25rem 0.625rem rgba(0, 0, 0, 0.2);
     margin-bottom: 1rem;
 }
 
-header nav {
+header  {
     display: flex;
     gap: 1.5rem;
     margin-bottom: 1rem;
 }
 
-header nav a {
+header  a {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
     padding: 0.5rem 1rem;
 }
 
-header nav a:hover {
+header a:hover {
     text-decoration: underline;
 }
 
@@ -101,6 +101,7 @@ header nav a:hover {
     border-radius: 1rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     margin: 2rem 0;
+
 }
 
 .intro img {
@@ -125,18 +126,17 @@ h2 {
 
 .links ul {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap: 1.5rem;
+    gap: 1rem;
     list-style: none;
     width: 100%;
-    max-width: 60rem;
+    max-width: 50rem;
 }
 
 .links li {
     background: white;
-    padding: 1.5rem;
-    border-radius: 0.75rem;
-    box-shadow: 0 0.5rem 0.75rem rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
@@ -145,10 +145,10 @@ h2 {
     text-decoration: none;
     background: #0165fc;
     color: white;
-    padding: 1rem 1.5rem;
+    padding: 0.75rem 1rem;
     border-radius: 0.5rem;
     font-weight: bold;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
 }
 
 .links li a:hover {
