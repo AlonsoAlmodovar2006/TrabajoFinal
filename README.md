@@ -3,6 +3,7 @@
 ## Tecnologías Utilizadas 💻
 ## Instalación ⚙️
 ## Uso 🚀
+## Navegación 🌐
 ## Capturas de Pantalla o Demo 📸
 ## Contribución 🤝
 ## Licencia 📜
