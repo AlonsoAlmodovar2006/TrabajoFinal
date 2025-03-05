@@ -1,10 +1,10 @@
 # Título del Proyecto 📌
-# Descripción 📝
-# Tecnologías Utilizadas 💻
-# Instalación ⚙️
-# Uso 🚀
-# Capturas de Pantalla o Demo 📸
-# Contribución 🤝
-# Licencia 📜
-# Autor y Contacto 📬
-# Agradecimientos 🙏
+## Descripción 📝
+## Tecnologías Utilizadas 💻
+## Instalación ⚙️
+## Uso 🚀
+## Capturas de Pantalla o Demo 📸
+## Contribución 🤝
+## Licencia 📜
+## Autor y Contacto 📬
+## Agradecimientos 🙏
