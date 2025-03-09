@@ -4,8 +4,8 @@
 Los Simpsons API es una aplicación web desarrollada con **HTML, CSS y JavaScript** que interactúa con diversas APIs relacionadas con *Los Simpsons*. Permite explorar personajes icónicos de la serie y acceder al catálogo de episodios organizados por temporadas. Con esta web, puedes buscar y descubrir información detallada sobre la serie de una forma sencilla y visual.
 
 ## Enlaces 🔗
-- **Demo en Vercel**: [Ver en vivo](https://trabajo-final-ivory-psi.vercel.app/)
-- **Video de demostración**: *(pendiente de enlace)*
+- **Demo en Vercel**: [Ver](https://trabajo-final-ivory-psi.vercel.app/)
+- **Video de demostración**: [Vídeo](https://drive.google.com/drive/u/0/folders/1X36Ds2ctXs3o3yLz7GERwrrDHEopR1Ws)
 
 ## Instalación ⚙️
 ### Requisitos previos:
