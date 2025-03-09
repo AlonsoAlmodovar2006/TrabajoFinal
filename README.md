@@ -1,7 +1,9 @@
 # Los Simpsons API
 ## Descripción 📝
 Una aplicación web construida con HTML, CSS y JavaScript que interactúa con varias APIs, relacionadas con los Simpsons, para mostrar ciertos personajes y el catálogo de episodios de cada temporada. Con esta eb puedes explorar y buscar información detallada sobre la serie.
-## Enlace al vídeo 💻
+## Enlaces 🔗
+- [Vercel](https://trabajo-final-ivory-psi.vercel.app/)). 
+- [Vídeo]
 ## Instalación del proyecto ⚙️
 ### Requisitos para ello:
  - Node.js
@@ -12,9 +14,8 @@ git clone https://github.com/yourusername/TrabajoFinal.git
 cd TrabajoFinal
 ```
 ### 2️⃣ Abre el proyecto 
-```sh
 Abre el archivo index.html en tu navegador web o usa un servidor local para mejor compatibilidad.
-```
+
 ### 3️⃣ Explora el código
 Para revisar o modificar el código fuente, puedes usar cualquier editor como VS Code, Sublime Text o Notepad++.
 
