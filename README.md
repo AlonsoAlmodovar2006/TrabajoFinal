@@ -1,11 +1,19 @@
-# Título del Proyecto 📌
+# Los Simpsons API
 ## Descripción 📝
-## Tecnologías Utilizadas 💻
+Una aplicación web construida con HTML, CSS y JavaScript que interactúa con varias APIs, relacionadas con los Simpsons, para mostrar ciertos personajes y el catálogo de episodios de cada temporada. Con esta eb puedes explorar y buscar información detallada sobre la serie.
+## Enlace al vídeo 💻
 ## Instalación ⚙️
+### 1️⃣ Clona el repositorio  
+
+```sh
+git clone https://github.com/yourusername/the-movie-project.git
+cd the-movie-project
+
 ## Uso 🚀
+
 ## Navegación 🌐
-## Capturas de Pantalla o Demo 📸
-## Contribución 🤝
+## Capturas de Pantalla 📸
+
 ## Licencia 📜
 Este proyecto está bajo la [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  
 Puedes usar, modificar y distribuir este proyecto, siempre que me menciones como autor original.
