@@ -2,12 +2,21 @@
 ## Descripción 📝
 Una aplicación web construida con HTML, CSS y JavaScript que interactúa con varias APIs, relacionadas con los Simpsons, para mostrar ciertos personajes y el catálogo de episodios de cada temporada. Con esta eb puedes explorar y buscar información detallada sobre la serie.
 ## Enlace al vídeo 💻
-## Instalación ⚙️
+## Instalación del proyecto ⚙️
+### Requisitos para ello:
+ - Node.js
+ - npm o yarn
 ### 1️⃣ Clona el repositorio  
-
 ```sh
-git clone https://github.com/yourusername/the-movie-project.git
-cd the-movie-project
+git clone https://github.com/yourusername/TrabajoFinal.git
+cd TrabajoFinal
+```
+### 2️⃣ Abre el proyecto 
+```sh
+Abre el archivo index.html en tu navegador web o usa un servidor local para mejor compatibilidad.
+```
+### 3️⃣ Explora el código
+Para revisar o modificar el código fuente, puedes usar cualquier editor como VS Code, Sublime Text o Notepad++.
 
 ## Uso 🚀
 
