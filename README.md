@@ -1,37 +1,46 @@
 # Los Simpsons API
+
 ## Descripción 📝
-Una aplicación web construida con HTML, CSS y JavaScript que interactúa con varias APIs, relacionadas con los Simpsons, para mostrar ciertos personajes y el catálogo de episodios de cada temporada. Con esta eb puedes explorar y buscar información detallada sobre la serie.
+Los Simpsons API es una aplicación web desarrollada con **HTML, CSS y JavaScript** que interactúa con diversas APIs relacionadas con *Los Simpsons*. Permite explorar personajes icónicos de la serie y acceder al catálogo de episodios organizados por temporadas. Con esta web, puedes buscar y descubrir información detallada sobre la serie de una forma sencilla y visual.
+
 ## Enlaces 🔗
-- [Vercel](https://trabajo-final-ivory-psi.vercel.app/). 
-- [Vídeo]
-## Instalación del proyecto ⚙️
-### Requisitos para ello:
- - Node.js
- - npm o yarn
-### 1️⃣ Clona el repositorio  
+- **Demo en Vercel**: [Ver en vivo](https://trabajo-final-ivory-psi.vercel.app/)
+- **Video de demostración**: *(pendiente de enlace)*
+- **Repositorio en GitHub**: [TrabajoFinal](https://github.com/yourusername/TrabajoFinal)
+
+## Instalación ⚙️
+### Requisitos previos:
+- Tener instalado **Node.js**
+- Tener **npm** o **yarn**
+
+### Pasos de instalación:
+#### 1️⃣ Clonar el repositorio
 ```sh
 git clone https://github.com/yourusername/TrabajoFinal.git
 cd TrabajoFinal
 ```
-### 2️⃣ Abre el proyecto 
+#### 2️⃣ Abre el proyecto 
 Abre el archivo index.html en tu navegador web o usa un servidor local para mejor compatibilidad.
 
-### 3️⃣ Explora el código
+#### 3️⃣ Explora el código
 Para revisar o modificar el código fuente, puedes usar cualquier editor como VS Code, Sublime Text o Notepad++.
 
 ## Navegación 🌐
-- **/index.html**: Primera página de la web.
-  - En la parte superior hay unos botones que enlazan a /characters.html y a /seasons.html.
-- **/characters.html**: Página introductoria de los personajes de la serie.
-  - En la parte superior hay unos botones que enlazan a /index.html y a /seasons.html.
-  - Debajo de la explicación hay un botón a /charactersapi.html.
-- **/charactersapi.html**: Buscador de personajes.
-  - En la parte superior hay un botón que enlaza a /characters.html.
-- **/seasons.html**: Página introductoria de las temporadas de la serie.
-  - En la parte superior hay unos botones que enlazan a /characters.html y a /index.html.
-  - Debajo de la explicación hay un botón a /seasonsapi.html
-- **/seasonssapi.html**: Filtro de temporadas para ver todos los capítulos de cada.
-  - En la parte superior hay un botón que enlaza a /seasons.html.
+El proyecto está dividido en varias páginas para una mejor experiencia de usuario:
+
+- **`/index.html`** → Página principal de la web.
+  - Contiene botones de navegación a `/characters.html` y `/seasons.html`.
+- **`/characters.html`** → Información introductoria sobre los personajes.
+  - Incluye enlaces a `/index.html` y `/seasons.html`.
+  - Contiene un botón para acceder a `/charactersapi.html`.
+- **`/charactersapi.html`** → Buscador de personajes.
+  - Incluye un botón para volver a `/characters.html`.
+- **`/seasons.html`** → Introducción a las temporadas de la serie.
+  - Contiene botones de navegación a `/characters.html` y `/index.html`.
+  - Tiene un botón de acceso a `/seasonsapi.html`.
+- **`/seasonsapi.html`** → Filtro de temporadas para visualizar los episodios.
+  - Contiene un botón para volver a `/seasons.html`.
+
 ## Capturas de Pantalla 📸
 Estas son las 3 pantallas clave del proyecto:
 ### Página principal
@@ -44,9 +53,11 @@ Estas son las 3 pantallas clave del proyecto:
 ## Licencia 📜
 Este proyecto está bajo la [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  
 Puedes usar, modificar y distribuir este proyecto, siempre que me menciones como autor original.
+
 ## Autor y Contacto 📬
-Hecho por Alonso Almodóvar Delgado, estudiante de 1º DAW. Cualquier sugerencia o duda contactarme por: 
-- Gmail --> alonsoalmodovar09@gmail.com 
+Creado por **Alonso Almodóvar Delgado**, estudiante de **1º DAW**.
+📩 **Email**: [alonsoalmodovar09@gmail.com](mailto:alonsoalmodovar09@gmail.com)
+
 ## Agradecimientos 🙏
  - A mis **profesores** por la oportunidad y la paciencia que tienen con nosotros.
  - A **Cojali** por abrirnos sus puertas durante dos semanas.
