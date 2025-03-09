@@ -5,7 +5,7 @@ Los Simpsons API es una aplicación web desarrollada con **HTML, CSS y JavaScrip
 
 ## Enlaces 🔗
 - **Demo en Vercel**: [Ver](https://trabajo-final-ivory-psi.vercel.app/)
-- **Video de demostración**: [Vídeo](https://drive.google.com/drive/u/0/folders/1X36Ds2ctXs3o3yLz7GERwrrDHEopR1Ws)
+- **Video de demostración**: [Vídeo]((https://drive.google.com/drive/folders/1X36Ds2ctXs3o3yLz7GERwrrDHEopR1Ws?usp=sharing))
 
 ## Instalación ⚙️
 ### Requisitos previos:
